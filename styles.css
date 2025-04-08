@@ -250,7 +250,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
@@ -371,17 +371,17 @@ nav {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
+    left: 5%;
+    transform: translateX(-10%);
+    width: 10%;
     height: 1px;
     background: linear-gradient(to right, transparent, #d7492a, transparent);
 }
 
 .team-content h2 {
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: #d7492a;
-    margin-bottom: 2rem;
+    margin-bottom:rem;
 }
 
 .team-grid {
@@ -410,8 +410,8 @@ nav {
 }
 
 .team-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     max-width: 100%;
     object-fit: cover;
     object-position: center;
@@ -1195,7 +1195,7 @@ nav {
 }
 
 .diagram-image {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     max-height: 500px;
     transition: transform 0.3s ease, opacity 0.5s ease;
@@ -1209,7 +1209,7 @@ nav {
 
 /* Workstreams Content (Workstreams Page) */
 .workstreams-content {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -2237,7 +2237,7 @@ footer {
 /* Floating Social Links Widget */
 .floating-social-links {
     position: fixed;
-    top: 50%;
+    top: 80%;
     left: 1px;
     transform: translateY(-50%);
     background-color: #000000;
@@ -2256,7 +2256,7 @@ footer {
 .floating-social-links-header {
     background: linear-gradient(90deg, #d7492a, #b33f26);
     color: #FFFFFF;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
     border-radius: 8px 8px 0 0;
     display: flex;
     align-items: center;
@@ -2270,7 +2270,7 @@ footer {
 }
 
 .floating-social-links-content {
-    padding: 0.5rem;
+    padding: 0rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -2288,7 +2288,7 @@ footer {
 }
 
 .floating-social-link i {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #d7492a;
 }
 

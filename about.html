@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- Header -->
@@ -23,14 +25,8 @@
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="workstreams.html">Workstreams</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" class="active">About <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="about.html">Our Story</a></li>
-                        <li><a href="collaborators.html">Our Collaborators</a></li>
-                    </ul>
-                </li>
+                <!-- <li><a href="workstreams.html">Workstreams</a></li> -->
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <!-- New Dropdown for UM6P Links -->
@@ -51,100 +47,217 @@
         <!-- Hero Section -->
         <section class="page-hero about-hero">
             <h1>About Us</h1>
-            <p>Building Bridges for Africa’s Future</p>
+            <!-- <p>Building Bridges for Africa’s Future</p> -->
         </section>
 
         <!-- About Section -->
         <section class="about-content">
-            <h2>Our Story</h2>
-            <p>The UM6P - Africa Initiative Department, based at Mohammed VI Polytechnic University in Benguerir, Morocco, serves as a catalyst for collaboration and innovation across the continent. We contribute to advancing UM6P’s role in higher education, research for development (R4D), innovation, and entrepreneurship by facilitating strategic partnerships, building on OCP’s on-the-ground efforts, and supporting interdepartmental coordination to help address Africa’s socio-economic development priorities.</p>
+            <!-- <h2>Our Story</h2> -->
+            <p>The UM6P - Africa Initiative serves as a catalyst for collaboration and innovation across the continent. We contribute to advancing UM6P’s role in higher education, research for development (R4D), innovation, and entrepreneurship by facilitating strategic partnerships, building on OCP’s on-the-ground efforts, and supporting interdepartmental coordination to help address Africa’s socio-economic development priorities.</p>
         </section>
 
-        <!-- Team Section -->
-        <section class="team-content">
-            <h2>Our Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <img src="images/Rachid-Serraj.jpeg" alt="Dr. Rachid Serraj" class="team-image">
-                    <i class="fas fa-user-tie"></i>
-                    <h3>Dr. Rachid Serraj</h3>
-                    <p class="team-role">Director of Africa Initiative and Associate Dean of Strategy (CSAE)</p>
-                    <div class="team-contact">
-                        <a href="mailto:rachid.serraj@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://ma.linkedin.com/in/rachidserraj" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
+
+        <!-- <h1>Our Workstreams</h1>
+            <p>Driving Africa’s Development Through Strategic Focus Areas</p>
+        </section> -->
+
+
+        <!-- Workstreams Diagram -->
+        <section class="workstreams-diagram">
+            <h2 id="workstream">Workstreams</h2>
+            <img src="workstreams-diagram.svg" alt="UM6P Africa Initiative Workstreams Diagram" class="diagram-image">
+        </section>
+
+            <div class="work-grid">
+                <div class="work-item">
+                    <h3>Aligning Research Agendas</h3>
+                    <p>We help connect UM6P’s research for development (R4D) with Africa’s socio-economic priorities and the SDGs, fostering collaboration to contribute to addressing challenges like food security and sustainable energy.</p> 
+                    <!-- <a href="workstreams.html#workstream1" class="read-more">Learn More</a> -->
                 </div>
-                <div class="team-member alt-bg">
-                    <img src="images/Bouchaib-Boulanouar.jpeg" alt="Dr. Bouchaib Boulanouar" class="team-image">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Dr. Bouchaib Boulanouar</h3>
-                    <p class="team-role">Senior Officer</p>
-                    <div class="team-contact">
-                        <a href="mailto:bouchaib.boulanouar@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://ci.linkedin.com/in/boulanouar-bouchaib" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
+                <div class="work-item">
+                    <h3>Envisioning African Futures</h3>
+                    <p>We contribute to exploring the future of African education, science, and entrepreneurship through visionary discussions and interdepartmental dialogue at UM6P.</p>
+                    <!-- <a href="workstreams.html#workstream2" class="read-more">Learn More</a> -->
                 </div>
-                <div class="team-member">
-                    <img src="images/Fatimaezzahra-Moutik.jpg" alt="Fatima Ezzahra MOUTIK" class="team-image">
-                    <i class="fas fa-flask"></i>
-                    <h3>Fatima Ezzahra MOUTIK</h3>
-                    <p class="team-role">Research & Development Engineer</p>
-                    <div class="team-contact">
-                        <a href="mailto:fatimaezzahra.moutik@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://ma.linkedin.com/in/fatima-ezzahra-moutik-353b30141" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
+                <div class="work-item">
+                    <h3>Fostering Academic Excellence</h3>
+                    <p>We help foster UM6P’s academic networks by facilitating partnerships and collaboration across Africa, enhancing knowledge exchange within and beyond the university.</p>
+                    <!-- <a href="workstreams.html#workstream3" class="read-more">Learn More</a> -->
                 </div>
-                <div class="team-member alt-bg">
-                    <img src="images/AzeezHAMZAT.jpg" alt="Azeez Adewale HAMZAT" class="team-image">
-                    <i class="fas fa-bullhorn"></i>
-                    <h3>Azeez Adewale HAMZAT</h3>
-                    <p class="team-role">Outreach Officer</p>
-                    <div class="team-contact">
-                        <a href="mailto:azeez.hamzat@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://linkedin.com/in/azeezhamzat" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
+                <div class="work-item">
+                    <h3>Connecting Innovation to Entrepreneurship</h3>
+                    <p>We support the connection between innovation and entrepreneurship by linking UM6P’s ecosystem with external partners and fostering cross-departmental collaboration.</p>
+                    <!-- <a href="workstreams.html#workstream4" class="read-more">Learn More</a> -->
                 </div>
-                <div class="team-member">
-                    <img src="images/Walid-Bouibes.jpg" alt="Walid Bouibes" class="team-image">
-                    <i class="fas fa-user-cog"></i>
-                    <h3>Walid Bouibes</h3>
-                    <p class="team-role">Admin Assistant</p>
-                    <div class="team-contact">
-                        <a href="mailto:walid.bouibes@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://ma.linkedin.com/in/walid-bouibes-136408ba" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
-                </div>
-                <div class="team-member alt-bg">
-                    <img src="images/Hajar-Bahi.jpg" alt="Hajar Bahi" class="team-image">
-                    <i class="fas fa-binoculars"></i>
-                    <h3>Hajar Bahi</h3>
-                    <p class="team-role">Data, horizon scanning and strategy Analyst</p>
-                    <div class="team-contact">
-                        <a href="mailto:hajar.bahi@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://www.linkedin.com/in/hajarbahi/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </div>
-                </div>
-               
-                <div class="team-member">
-                    <img src="images/Are you.jpg" alt="Wanna Join?" class="team-image">
-                    <i class="fas fa-rocket"></i>
-                    <h3>Wanna Join?</h3>
-                    <p class="team-role">Send us an email. <br>We are still growing</p>
-                    <div class="team-contact">
-                        <a href="mailto:africa.initiative@um6p.ma"><i class="fas fa-envelope"></i> Email</a>
-                        <!-- <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> -->
-                    </div>
+
+                
+                <div class="work-item">
+                    <h3>Strengthening Communication and Outreach</h3>
+                    <p>We aim to enhance the visibility of our initiatives by supporting communication and outreach efforts across Africa. Through engagement in events, publications, and digital platforms, we seek to help ensure that UM6P’s efforts are shared with and accessible to broader communities.</p>
+                    <!-- <a href="workstreams.html#workstream4" class="read-more">Learn More</a> -->
                 </div>
             </div>
         </section>
 
-        <!-- Call to Action -->
-        <section class="cta">
-            <h2>Learn More About Our Mission</h2>
-            <p>Explore how we’re shaping Africa’s future through collaboration.</p>
-            <a href="workstreams.html" class="btn">Discover Our Workstreams</a>
+        <!-- Workstreams Details -->
+        <!-- <section class="workstreams-content">
+            <div class="workstream-item" id="workstream1">
+                <i class="fas fa-search"></i>
+                <h2>Workstream 1: Supporting Alignment of Research Agendas to Socio-Economic Priorities</h2>
+                <p>We aim to support the connection between UM6P’s research efforts and Africa’s socio-economic needs and the SDGs. By encouraging dialogue and collaboration between UM6P departments and external stakeholders, we help identify opportunities where research can contribute to addressing key challenges such as food security and sustainable energy. 
+                    Our role is to curate conversations and foster alignment, reinforcing UM6P’s attentiveness to continental priorities.</p>
+            </div>
+
+            <div class="workstream-item alt-bg" id="workstream2">
+                <i class="fas fa-lightbulb"></i>
+                <h2>Workstream 2: Contributing to Envisioning African Futures in Education and Innovation</h2>
+                <p>We seek to contribute to conversations that position UM6P as a thoughtful voice in shaping the future of African higher education, science, and entrepreneurship. By convening discussions among UM6P faculty, departments, and external partners, we help explore emerging trends and opportunities for socio-economic development. 
+                    Through this, we aim to facilitate interdepartmental dialogue and contribute to building strategic insights that can inspire collective action.</p>
+            </div>
+
+            <div class="workstream-item" id="workstream3">
+                <i class="fas fa-handshake"></i>
+                <h2>Workstream 3: Facilitating Academic Excellence Through Partnerships and Networks</h2>
+                <p>We help strengthen UM6P’s academic connections by facilitating partnerships and collaborative networks across Africa and beyond. By supporting coordination within UM6P and engaging with external stakeholders, we contribute to building a collaborative environment that promotes knowledge sharing and supports impactful academic initiatives.</p>
+            </div>
+
+            <div class="workstream-item alt-bg" id="workstream4">
+                <i class="fas fa-rocket"></i>
+                <h2>Workstream 4: Encouraging the Connection Between Innovation and Entrepreneurship</h2>
+                <p>In collaboration with UM6P’s entrepreneurial ecosystem (such as Stargate incubator), we contribute to connecting innovation and entrepreneurship efforts. By helping to facilitate exchanges between innovators, researchers, and partners, we aim to support efforts that respond to Africa’s socio-economic challenges and promote solutions with the potential to scale.</p>
+            </div>
+
+            <div class="workstream-item" id="workstream5">
+                <i class="fas fa-bullhorn"></i>
+                <h2>Workstream 5: Strengthening Communication and Outreach</h2>
+                <p>We aim to enhance the visibility of our initiatives by supporting communication and outreach efforts across Africa. Through engagement in events, publications, and digital platforms, we seek to help ensure that UM6P’s efforts are shared with and accessible to broader communities.</p>
+            </div> -->
         </section>
-    </main>
+
+<!--  -->
+<!-- Collaborations Section (Carousel) -->
+<section class="collaborations-content">
+    <h2>Collaborators</h2>
+    <div class="swiper collaborations-carousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide collaboration-item">
+                <img src="images/arua.png" alt="ARUA Logo" class="collaboration-logo">
+                <h3>ARUA</h3>
+                <p>Collaborating with ARUA to promote research excellence and foster collaboration among African universities in addressing shared challenges.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item">
+                <img src="images/aau.png" alt="AAU Logo" class="collaboration-logo">
+                <h3>AAU</h3>
+                <p>Engaging with the Association of African Universities (AAU) to support academic partnerships and contribute to the development of higher education across Africa.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item alt-bg">
+                <img src="images/RUFORUM.jpg" alt="RUFORUM Logo" class="collaboration-logo">
+                <h3>RUFORUM</h3>
+                <p>Working alongside RUFORUM to strengthen research and education capacity in agriculture and sustainable development across African universities.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item">
+                <img src="images/ace-impact.jpg" alt="ACE IMPACT Logo" class="collaboration-logo">
+                <h3>ACE IMPACT</h3>
+                <p>Partnering with ACE IMPACT to help advance postgraduate education and research in STEM, supporting innovation and development across the continent.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item alt-bg">
+                <img src="images/ocpa.png" alt="OCP Africa Logo" class="collaboration-logo">
+                <h3>OCP Africa</h3>
+                <p>Collaborating with OCP Africa to contribute to empowering smallholder farmers through agricultural solutions and tailored training programs.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item">
+                <img src="images/fao.png" alt="FAO Logo" class="collaboration-logo">
+                <h3>FAO</h3>
+                <p>Working with FAO to support efforts addressing food security and sustainable agriculture, fostering resilience in African communities.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item alt-bg">
+                <img src="images/agripreneurship-alliance.webp" alt="Agripreneur Alliance Logo" class="collaboration-logo">
+                <h3>Agripreneur Alliance</h3>
+                <p>Collaborating with Agripreneur Alliance to encourage and support young agricultural entrepreneurs, promoting innovation in agribusiness.</p>
+            </div>
+            
+            <div class="swiper-slide collaboration-item alt-bg">
+                <img src="images/rescif.webp" alt="RESCIF Logo" class="collaboration-logo">
+                <h3>RESCIF</h3>
+                <p>Partnering with RESCIF on addressing future challenges in key areas such as water, energy, and nutrition.</p>
+            </div>                    
+        </div>
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-prev collaboration-prev"></div>
+        <div class="swiper-button-next collaboration-next"></div>
+        <!-- Pagination Dots -->
+        <div class="swiper-pagination collaboration-pagination"></div>
+    </div>
+</section>
+
+<!-- Gallery Section (Carousel) -->
+<section class="page-hero impacts-hero">
+    <h2>Gallery</h2>
+    <div class="swiper gallery-carousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide gallery-item">
+                <img src="images/ESOs-workshop.jpg" alt="ESOs-workshop" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>Enterpreneurship Support Ecosystem (ESOs) workshop</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/DFS-signing.jpg" alt="DFS signing ceremony" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>Digital Farming School signing ceremony</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/ace-impact-visit.jpg" alt="ACE-IMPACT visits UM6P" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span> ACE-IMPACT visits UM6P</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/SUA-delegation.jpeg" alt="delegation from Sokoine University of Agriculture (SUA)" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>High-level delegation from Sokoine University of Agriculture (SUA)</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/AAU-delegation.jpg" alt="AAU-delegation" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>Association of African Universities visits UM6P</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/ESOs-brainstorming.jpg" alt="ESOs-brainstorming" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>Brainstorming session of African Agripreneurship</span>
+                </div>
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="images/ie-workshop.jpg" alt="ie-workshop" class="gallery-image">
+                <div class="gallery-overlay">
+                    <span>Workshop on African Innovation and Entrepreneurship</span>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-prev gallery-prev"></div>
+        <div class="swiper-button-next gallery-next"></div>
+        <!-- Pagination Dots -->
+        <div class="swiper-pagination gallery-pagination"></div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<!-- <section class="cta">
+    <h2>Join Us in Making an Impact</h2>
+    <p>Explore how you can collaborate with UM6P to drive innovation and sustainability in Africa.</p>
+    <a href="contact.html" class="btn">Get Involved</a>
+</section> -->
 
     <!-- Footer -->
     <footer>
@@ -170,6 +283,8 @@
         </div>
         <p class="footer-bottom">© 2025 UM6P - Africa Initiative. All rights reserved. | Developed by <a href="https://linkedin.com/in/azeezhamzat" target="_blank">Azeez Hamzat</a></p>
     </footer>
+ <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="script.js"></script>
 </body>
